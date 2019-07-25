@@ -6,7 +6,10 @@ import sys
 import os
 from config import ROOT
 
-includes = [os.path.join(ROOT,"Include"),os.path.join("cmsisdsp_pkg","src")]
+includes = [os.path.join(ROOT,"Include"),
+        os.path.join("cmsisdsp_pkg","src"),
+        '../../Core/Include/',
+        ]
 
 if sys.platform == 'win32':
   cflags = ["-DWIN",config.cflags,"-DUNALIGNED_SUPPORT_DISABLE"] 
