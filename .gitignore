@@ -9,3 +9,5 @@ CMSIS/CoreValidation/Tests/bootloader/build
 *.uvguix.*
 *.uvmpw.uvgui.*
 CMSIS/DSP/PythonWrapper/build
+*.so
+*.pyc
